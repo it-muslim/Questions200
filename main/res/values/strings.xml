@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">200 вопросов</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_night_mode">Ночной режим</string>
+    <string name="action_exit">Выход</string>
+    <string name="action_indents" tools:keep="@string/action_indents">Отступы текста</string>
+    <string name="action_sizes" tools:keep="@string/action_sizes">Размер текста</string>
+    <string name="answer">ОТВЕТ</string>
+    <string name="search_by_chapter">Поиск по главам…</string>
+    <string name="list_chapter">Список глав</string>
+    <string name="list_bookmark">Список закладок</string>
+    <string name="bookmark_is_empty">Добавьте первую закладку</string>
+    <string name="action_fonts" tools:keep="@string/action_fonts">Выбор шрифта</string>
+    <string name="action_list_apps">Список приложений</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_about_us">О нас</string>
+    <string name="action_support">Поддержать</string>
+
+    <string name="about_us_text">
+
+        <b>JMApps</b> — серия бесплатных андроид-приложений для мусульман.
+        Наши приложения всегда будут <b>бесплатными</b> и <b>без</b> какой-либо <b>рекламы</b>.\n \n
+        Вы можете следить за обновлением старых и изданием новых приложений в нашей группе в ВКонтакте:\n
+        www.vk.com/JMApps и на нашем канале в Telegram:\n t.me/JMApps. \n\n
+        Если же у вас возникнут вопросы, или появятся предложения или критика, можете написать нам
+        на почту: jmappsmuslim@gmail.com, или в Telegram: t.me/JMbikk
+
+    </string>
+
+    <string name="action_support_text">
+
+        Ассаляму аляйкум! Дорогие братья и сестры, вы можете
+    поддержать проект JMApps! \n\n
+
+    Адрес нашего биткоин-кошелька (просто скопируйте): \n\n
+
+    <b>1PukRWb8fbXpEhxEaCNDGSAnHaq61tfX9J</b> \n\n
+
+    Также у нас есть КИВИ-кошелек. Получить его вы можете, написав нам в Телеграм t.me/JMBikk
+
+    </string>
+</resources>

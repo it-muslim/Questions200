@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="1000dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_format_list"
+        android:drawableLeft="@drawable/ic_format_list"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/list_chapter"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_search_by_chapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_by_chapter"
+        android:inputType="text"
+        android:padding="16dp" />
+
+    <ListView
+        android:id="@+id/lv_list_chapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@drawable/thumb_drawable"
+        android:scrollbars="vertical" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="1000dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@drawable/ic_bookmark_white"
+        android:drawableLeft="@drawable/ic_bookmark_white"
+        android:drawablePadding="16dp"
+        android:padding="16dp"
+        android:text="@string/list_bookmark"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_if_bookmark_is_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:drawableEnd="@drawable/ic_bookmark"
+        android:drawableRight="@drawable/ic_bookmark"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="@string/bookmark_is_empty"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_list_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@drawable/thumb_drawable"
+        android:scrollbars="vertical" />
+</LinearLayout>
